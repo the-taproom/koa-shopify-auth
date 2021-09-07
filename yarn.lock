@@ -1239,10 +1239,9 @@
   dependencies:
     "tslib" "^1.14.1"
 
-"@shopify/shopify-api@^1.2.1":
-  "integrity" "sha512-a2xNAQovf8WYGEAvjrdSK2bY3+XWuFgIfPhtxkO+QAMILb3dIk+Cxtbo1gaC1fD170AjwZ6gVl5RQbpe9ZVsfw=="
-  "resolved" "https://registry.npmjs.org/@shopify/shopify-api/-/shopify-api-1.2.1.tgz"
-  "version" "1.2.1"
+"@shopify/shopify-api@github:the-taproom/shopify-node-api#dist":
+  "resolved" "git+ssh://git@github.com/the-taproom/shopify-node-api.git#024261861e54d1f94d8df1eafb6f1527f87ffc31"
+  "version" "1.4.1"
   dependencies:
     "@shopify/network" "^1.5.1"
     "@types/jsonwebtoken" "^8.5.0"
